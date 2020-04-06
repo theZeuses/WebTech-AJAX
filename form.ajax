@@ -3,13 +3,14 @@
 <body>
     <h2>The XMLHttpRequest Object</h2>
 
-    <h3>Select Division and City:</h3>
+    <h3>Select Division and District:</h3>
 
     <p>Division: 
       <select onchange="showHint(this.value);">
         <option value="/" selected>Select Division</option>
-        <option value="dhaka">Dhaka</option>
-        <option value="khulna">Khulna</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Barishal">Barishal</option>
       </select>
     </p>
     <p>Districts: 
